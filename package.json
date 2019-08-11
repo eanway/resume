@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "my resume",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eanway/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "evan cutler anway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eanway/resume/issues"
+  },
+  "homepage": "https://github.com/eanway/resume#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "hbs": "^4.0.4"
+  }
+}
