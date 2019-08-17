@@ -27,11 +27,15 @@ app.get("/", (req, res) => {
 })
 
 app.get("/home.html", (req, res) => {
-  res.render("home.hbs");
+  res.render("home.hbs", {
+    active: { home: true }
+  });
 });
 
 app.get("/resume.html", (req, res) => {
-    res.render("resume.hbs");
+    res.render("resume.hbs", {
+      active: { resume: true }
+    });
   });
 
 app.listen(port, () => {
